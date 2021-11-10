@@ -82,7 +82,7 @@ const Detail = () => {
         <>
           <Subtitle>
             {data?.movie?.language}
-            {/* 11. button을 클릭하며 isFucked의 값이 바뀌면서 해당 값에 따라서 이모티콘이 다르게 나옴. */}
+            {/* //11. button을 클릭하며 isFucked의 값이 바뀌면서 해당 값에 따라서 이모티콘이 다르게 나옴. */}
             {`${data?.movie?.rating} ${data?.movie?.isFucked ? '💘' : '💥'}`}
           </Subtitle>
           <Description>{data?.movie?.description_full}</Description>

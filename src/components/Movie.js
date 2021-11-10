@@ -49,7 +49,7 @@ const Movie = ({ id, bg, isLiked, isFucked }) => {
       </Link>
       <button onClick={toggleMovie}>{isLiked ? 'unLike' : 'Like'}</button>
 
-      {/* 7.onClick을 통해 클릭하면 toggle이 되게 한다 */}
+      {/* //7.onClick을 통해 클릭하면 toggle이 되게 한다 */}
       <button onClick={play}>{isFucked ? 'noFuck' : 'isFuck'}</button>
     </Container>
   );

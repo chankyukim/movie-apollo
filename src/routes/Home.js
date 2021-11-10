@@ -49,7 +49,7 @@ const Movies = styled.div`
 `;
 
 //쿼리에 varialbe이 없을 땐 이런식으로 써도 된다.
-//2. isLiked,isFuck은 백엔드가 아닌 프론트(client)에 있다는걸 명시
+//2. Home에서 isLiked,isFucked를 쓰고 싶으니 필드에 추가. isLiked,isFuck은 백엔드가 아닌 프론트(client)에 있다는걸 명시.
 const GET_MOVIES = gql`
   {
     movies {

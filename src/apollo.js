@@ -51,8 +51,8 @@ const client = new ApolloClient({
       },
 
       toggleFuck: (_, { id, isFucked }, { cache }) => {
-        // 8. cache에 저장된 데이터를 사용자가 원하는 데이터로 수정할 수 있다. (isFucked가 true,false로 toggle).
-        // Movie:${id} -> 해당하는 번호의 Movie의 isFucked요소만 true,false로 번갈아가며 토글된다
+        //8. cache에 저장된 데이터를 사용자가 원하는 데이터로 수정할 수 있다. (isFucked가 true,false로 toggle).
+        //Movie:${id} -> 해당하는 번호의 Movie의 isFucked요소만 true,false로 번갈아가며 토글된다
         cache.modify({
           id: `Movie:${id}`,
           fields: {
